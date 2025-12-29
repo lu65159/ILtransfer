@@ -1,10 +1,10 @@
 const ILb = require("blocks/IL/双传桥");
-const ILj = require("blocks/IL/双传交叉器");
+//const ILj = require("blocks/IL/双传交叉器");
 const ILduct = extend(Duct, "双传带", {
     init(){
         this.super$init();
         this.bridgeReplacement = ILb.ILbridge;
-        //this.junctionReplacement = ILj.ILjunction; //光传不自动替换
+        //this.junctionReplacement = ILj.ILjunction; //自动替换
     },
     handlePlacementLine(plans){
         Placement.calculateBridges(plans, this.bridgeReplacement);
@@ -72,8 +72,8 @@ ILduct.buildType = (() => {
             this.super$updateTile();       
         },
         draw(){        
-            this.drawLiquidLayer();
-            this.super$draw();      
+            this.super$draw();    
+            this.drawLiquidLayer();  
         },
         drawLiquidLayer(){
             Draw.z(Layer.blockUnder+0.05);
