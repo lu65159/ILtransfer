@@ -1,0 +1,16 @@
+{
+    "name": "双传路由器",
+    "description": "向四个方向平均输出物品与液体,速度更快。",
+    "health": 90,
+    "speed": 3,
+    "floating": true,
+    "hasLiquids": true,
+    "liquidCapacity": 30,
+    "requirements": [
+        "metaglass/3",
+        "plastanium/1",
+        "surge-alloy/1"
+    ],
+    "category": "distribution",
+    "research": "双传交叉器"
+}
