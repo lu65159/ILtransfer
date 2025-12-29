@@ -2,8 +2,8 @@
     "name": "ILtransfer",
     "displayName": "双重传输",
     "author": "Space",
-    "description": "版本1.0\n添加新运输建筑，将传送带和导管功能合二为一\n[green]从搓着玩的液体工艺MOD上摘下来的部分QWQ",
-    "version": "1.0",
+    "description": "版本0.99\n添加新运输建筑，将传送带和导管功能合二为一\n[green]从搓着玩的液体工艺MOD上摘下来的部分QWQ",
+    "version": "0.99",
     "minGameVersion": "146"
 }
 
@@ -14,3 +14,4 @@
 *传送带自动替换交叉器尚未实现
 
 */
+
